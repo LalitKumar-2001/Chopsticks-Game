@@ -1,26 +1,29 @@
 # **************** Simple Chopsticks Game ********************
 # ****************   Made by Lalit Kumar  ********************
 
+#User Input function for player 1
 def UserIn_for_move1():
     n = input("\nEnter move for Player 1 -")
     return n
 
 
+#User Input function for player 2
 def UserIn_for_move2():
     n = input("\nEnter move for Player 2 -")
     return n
 
 
+#User Attack function
 def UserIn_for_combination_attack():
     n = input("\nEnter the move combination for attack: ")
     return n
 
-
+#User Split function(whenever necessary)
 def UserIn_for_combination_split():
     n = input("\nEnter the move combination for split: ")
     return n
 
-
+#Function to see the current status of player
 def current_status(hand_1_l, hand_1_r, hand_2_l, hand_2_r):
     print("\nCurrent status :")
     print("Player1- %s %s" % (hand_1_l, hand_1_r))
