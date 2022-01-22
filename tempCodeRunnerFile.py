@@ -1,1 +1,0 @@
-sys.path.append(os.path.abspath("/Users/lalit/Desktop/Chopsticks-Game/assist"))
