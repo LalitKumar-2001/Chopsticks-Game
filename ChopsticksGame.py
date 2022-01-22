@@ -3,10 +3,15 @@ ChopsticksGame.py
 A subclass of aima's Game class. A game is similar to a problem, but it has a utility for each state and a terminal
 test instead of a path cost and a goal test.
 """
-from assist.utility import *
-from assist.game import Game
-from assist.game import GameState
-from assist.game import minimax_decision
+from game import minimax_decision
+from game import GameState
+from game import Game
+from utility import *
+
+import os
+os.system("python utility.py")
+os.system("python game.py")
+
 
 __author__ = "Chris Campell"
 __version__ = "10/3/2017"
